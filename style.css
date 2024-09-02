@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+:root{
+    --salmao:#D5966C;
+    --pretoUmPoucoNaoPreto:#151515;
+    --cinzaUmPoucoPouquinhoPreto:#444444;
+}
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body{
+    width: 100%;
+    height: auto;/*3463*/
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+header{
+    max-width: 462px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+header img{
+    height: 294px;
+    width: 100%;
+    
+}
+header h2{
+    font-size: 60px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 800;
+    margin-left:16.1px;
+}
+p{
+    font-size: 20px;
+    font-family: 'Outfit';  
+    color: white;
+    font-weight: 400;
+    width: 90%;
+}
+.headerAndMain-p{
+    color: black;
+    font-weight: 300;
+}
+.header-divbutton{
+    width: auto;
+    height: auto;
+    display: flex;
+}
+.header-divbutton div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 204px;
+    height: 72px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin-left: 16.1px;
+}
+.header-divbutton div p{
+    font-family:'Big Shoulders Display';
+    font-weight:bolder;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.header-divbutton button{
+    width: 56px;
+    height: 72px;
+    color: rgb(255, 255, 255);
+    background-color: var(--salmao);
+    font-weight: 100;
+    font-size: 40px;
+    border: 0;
+}
+img{
+    overflow-clip-margin: content-box;
+    overflow-y: hidden;
+    width: 100%;
+}
+main{
+    height: auto;
+    max-width:462px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 16.1px;
+}
+figure{
+    width: 100%;
+    height: auto;
+}
+.firstImg-main{
+    height: 392px;;
+}
+.div-title-main{
+    height: 223px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+.div-title-main h2{
+    font-size: 50px;
+    font-family: 'Big Shoulders Display';
+    font-weight: black;
+    font-weight: 900;
+}
+.secondImg-main{
+    height: 588px;
+}
+.thirdImg-main{
+    height: 245px;
+
+}
+.endOfmain{
+    width: 100%;
+    height: 293px;
+    background-color:var(--pretoUmPoucoNaoPreto);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Big Shoulders Display';
+    background-color: aqua;
+}
+.endOfmain h2 p{
+    text-align: center;
+    font-weight: 200;
+    width: 50%;
+}
+.endOfmain h2{
+    font-size:50px;
+}
+footer{
+    max-width: 462px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    background-color: var(--pretoUmPoucoNaoPreto);
+    padding-top:48px;
+    padding-bottom:48px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+footer p{
+    font-weight: 300;
+}
+.footer-divIcons{
+    display: flex;
+    gap: 20px;
+}
+/* footer 12% */
